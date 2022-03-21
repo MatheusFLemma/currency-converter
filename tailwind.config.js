@@ -9,6 +9,9 @@ module.exports = {
       white: '#FFFFFF',
     },
     fontSize: {
+      base: '1rem',
+      lg: '1.125rem',
+      '4xl': '2.25rem',
       '6.5xl': '4rem',
     },
   },
