@@ -66,11 +66,11 @@ function CurrencyInput() {
   }, []);
 
   return (
-    <section className="w-full grid grid-rows-2 gap-y-4">
-      <div className="flex gap-x-1 w-full justify-evenly items-center">
+    <section className="w-full grid grid-rows-2 lg:gap-y-6">
+      <div className="flex flex-col w-full justify-evenly items-center lg:flex-row">
         <select
           onChange={handleChangeCurrencyOne}
-          className="h-full text-dark bg-white border-2 border-gray rounded-xl p-4 text-base w-96"
+          className="h-full text-dark bg-white border-2 border-gray rounded-xl p-4 text-base w-full max-h-14 lg:w-96"
           value={currency1}
         >
           {Object.keys(rates).map((rate) => (
@@ -80,7 +80,7 @@ function CurrencyInput() {
         <Text>para</Text>
         <select
           onChange={handleChangeCurrencyTwo}
-          className="h-full text-dark bg-white border-2 border-gray rounded-xl p-4 text-base w-96"
+          className="h-full text-dark bg-white border-2 border-gray rounded-xl p-4 text-base w-full max-h-14 lg:w-96"
           value={currency2}
         >
           {Object.keys(rates).map((rate) => (
@@ -91,10 +91,10 @@ function CurrencyInput() {
         </select>
       </div>
 
-      <div className="flex gap-x-1 w-full justify-center items-baseline">
+      <div className="flex flex-col gap-x-1 w-full justify-center items-baseline lg:flex-row">
         <CurrencyDetected>{selectedCurrencyOne}</CurrencyDetected>
         <input
-          className="text-dark text-4xl max-w-xs w-full"
+          className="text-dark text-4xl w-full"
           type="number"
           value={amount1}
           onChange={handleAmount1Change}
@@ -102,7 +102,7 @@ function CurrencyInput() {
         <Text>vale</Text>
         <CurrencyDetected>{selectedCurrencyTwo}</CurrencyDetected>
         <input
-          className="text-dark text-4xl max-w-xs w-full"
+          className="text-dark text-4xl w-full"
           type="number"
           value={amount2}
           onChange={handleAmount2Change}

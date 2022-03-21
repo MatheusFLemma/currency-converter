@@ -1,9 +1,9 @@
 import Heading from '../Heading';
-import CurrencyInput from '../CurrencyInput/index';
+import CurrencyInput from '../CurrencyInput';
 
 function Container() {
   return (
-    <main className="w-screen h-screen flex flex-col items-center justify-evenly container mx-auto max-w-5xl">
+    <main className="h-screen px-4 flex flex-col items-center justify-evenly lg:px-8 lg:container lg:mx-auto">
       <Heading>Conversor de Moedas</Heading>
       <CurrencyInput />
     </main>
