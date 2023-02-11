@@ -9,7 +9,6 @@ import { toast } from "react-toastify";
 import { getExchangeRates } from "../../services/exchangeRatesApi";
 
 import { CurrencyRatesData } from "./types";
-import { CurrencyDetected } from "../CurrencyDetected";
 import { Heading } from "../Heading";
 import { CurrencyReducer, currencyInitialValues } from "./utils/reducer";
 import { CurrencyInput } from "../CurrencyInput";
@@ -22,10 +21,10 @@ export function Container() {
   useEffect(() => {
     setIsLoading(true);
 
-    getExchangeRates()
+    getExchangeRates(state.currencyOne)
       .then((res) => {
-        const ratesData = res.data.rates;
-
+        const ratesData = res.data.conversion_rates;
+        
         setRates(ratesData);
       })
       .catch((err) => toast.error(err))
