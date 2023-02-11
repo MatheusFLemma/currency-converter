@@ -1,11 +1,5 @@
-import { ReactNode } from 'react';
+import { CurrencyDetectedProps } from './types';
 
-interface CurrencyDetectedProps {
-  children: ReactNode;
+export function CurrencyDetected({ children }: CurrencyDetectedProps) {
+  return <span className="text-4xl text-[#D8D8D8]">{children}</span>;
 }
-
-function CurrencyDetected({ children }: CurrencyDetectedProps) {
-  return <span className="text-4xl text-gray">{children}</span>;
-}
-
-export default CurrencyDetected;

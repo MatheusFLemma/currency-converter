@@ -1,7 +1,11 @@
-import Container from './components/Container';
+import { ToastContainer } from "react-toastify";
+import { Container } from "./components/Container";
 
-function App() {
-  return <Container />;
+export function App() {
+  return (
+    <>
+      <Container />
+      <ToastContainer />
+    </>
+  );
 }
-
-export default App;

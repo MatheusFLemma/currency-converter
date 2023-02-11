@@ -1,11 +1,5 @@
-import { ReactNode } from 'react';
+import { TextProps } from "./types";
 
-interface TextProps {
-  children: ReactNode;
+export function Text({ children }: TextProps) {
+  return <p className="text-[#3861FB] text-lg">{children}</p>;
 }
-
-function Text({ children }: TextProps) {
-  return <p className="text-blue text-lg">{children}</p>;
-}
-
-export default Text;
