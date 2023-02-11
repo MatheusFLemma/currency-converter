@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://api.exchangeratesapi.io/v1",
+  baseURL: "http://api.exchangeratesapi.io/v1",
 });
