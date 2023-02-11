@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  <img src="github/desktop.png" width="600" alt="Foto do projeto Conversor de moedas">
+  <img src=".github/desktop.png" width="600" alt="Foto do projeto Conversor de moedas">
 </h1>
 
 <h3 align="center">Conversor de moedas</h3>
@@ -27,7 +27,7 @@
 Utilizando a versão gratuita da API [ExchangeRatesAPI](https://exchangeratesapi.io/), a cotação é atualizada a cada hora.
 
 <h4 align="center"><strong>Versão mobile</strong></h4>
-<p align="center"><img src="github/mobile.png" height="500" alt="Versão mobile do projeto" /></p>
+<p align="center"><img src=".github/mobile.png" height="500" alt="Versão mobile do projeto" /></p>
 
 
 ---
