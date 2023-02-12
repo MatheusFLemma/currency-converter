@@ -65,5 +65,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 <a href="https://pt-br.reactjs.org/" rel="external" target="_blank"><img src="https://img.shields.io/badge/ReactJS-282C34?style=for-the-badge&logo=react"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://vitejs.dev/" rel="external" target="_blank"><img src="https://img.shields.io/badge/Vite-efefef?style=for-the-badge&logo=Vite"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://tailwindcss.com/" rel="external" target="_blank"><img src="https://img.shields.io/badge/Tailwind CSS-0B1120?style=for-the-badge&logo=tailwindcss"/></a>&nbsp;&nbsp;&nbsp;
-<a href="https://pages.github.com/" rel="external" target="_blank"><img src="https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel"/></a>
+<a href="https://vercel.com/home" rel="external" target="_blank"><img src="https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel"/></a>
 </p>
